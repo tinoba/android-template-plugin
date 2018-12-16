@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.Generator">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="25"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="afad3">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="28b2c" default-binding="true" layout-manager="GridLayoutManager" row-count="20" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="7f908" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="54e36" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Feature name"/>
+                    </properties>
+                  </component>
+                  <component id="9759b" class="javax.swing.JTextField" binding="featureNameText">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="d0216" binding="columnsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="847ce" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="4192d" class="javax.swing.JButton" binding="addNewRowButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Add new row"/>
+                    </properties>
+                  </component>
+                  <hspacer id="9a204">
+                    <constraints/>
+                  </hspacer>
+                  <vspacer id="43a6b">
+                    <constraints/>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="54412" binding="modelPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="b74bf" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Model path"/>
+                    </properties>
+                  </component>
+                  <component id="69052" class="javax.swing.JTextField" binding="modelPathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="58149" class="javax.swing.JButton" binding="modelBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="edb92" binding="contractPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="b52fd" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Contract path"/>
+                    </properties>
+                  </component>
+                  <component id="f82e6" class="javax.swing.JTextField" binding="contractPathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <horizontalAlignment value="10"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="97997" class="javax.swing.JButton" binding="contractBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="afe38" binding="crudHelpersPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f3ace" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="CRUD hellpers path"/>
+                    </properties>
+                  </component>
+                  <component id="18da0" class="javax.swing.JTextField" binding="crudHelpersPathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="dfd44" class="javax.swing.JButton" binding="crudHelpersBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b43a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="9f3e8" class="javax.swing.JCheckBox" binding="readAllCheckBox">
+                    <constraints/>
+                    <properties>
+                      <text value="Read all"/>
+                    </properties>
+                  </component>
+                  <component id="10b3a" class="javax.swing.JCheckBox" binding="readByCheckBox">
+                    <constraints/>
+                    <properties>
+                      <text value="Read by primary keys"/>
+                    </properties>
+                  </component>
+                  <component id="15041" class="javax.swing.JCheckBox" binding="insertCheckBox">
+                    <constraints/>
+                    <properties>
+                      <text value="insert/update"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="5ad2d" binding="daoPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="21ae5" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="DaoImpl directory or class"/>
+                    </properties>
+                  </component>
+                  <component id="c6546" class="javax.swing.JTextField" binding="daoPathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="6884b" class="javax.swing.JButton" binding="daoBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="c8284" binding="repositoryPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e50dc" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Repository directory or class"/>
+                    </properties>
+                  </component>
+                  <component id="dbc95" class="javax.swing.JTextField" binding="repositoryPathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="647d8" class="javax.swing.JButton" binding="repositoryBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="dce9b" binding="repositoryImplPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a27c8" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Repository Impl directorcy or class"/>
+                    </properties>
+                  </component>
+                  <component id="8a4c1" class="javax.swing.JTextField" binding="repositoryImplPathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="6141c" class="javax.swing.JButton" binding="repositoryImplBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="464c4" binding="usecasePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a2995" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Usecase directory"/>
+                    </properties>
+                  </component>
+                  <component id="9cbed" class="javax.swing.JTextField" binding="usecasePathText">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="7a308" class="javax.swing.JButton" binding="usecaseBrowseButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b3b3c" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="56df2" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Database Dagger module"/>
+                    </properties>
+                  </component>
+                  <component id="53ccd" class="javax.swing.JTextField">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="2cacc" class="javax.swing.JButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="9e67" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7a7ab" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="UserData Dagger module"/>
+                    </properties>
+                  </component>
+                  <component id="93876" class="javax.swing.JTextField">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="da578" class="javax.swing.JButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f917" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints>
+                  <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f6f78" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Usecase Dagger module"/>
+                    </properties>
+                  </component>
+                  <component id="32343" class="javax.swing.JTextField">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="43fd2" class="javax.swing.JButton">
+                    <constraints/>
+                    <properties>
+                      <text value="Browse..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

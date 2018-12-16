@@ -1,0 +1,4 @@
+
+    Completable update{feature} (final String nesto ){
+        database.insert(nesto);
+    }

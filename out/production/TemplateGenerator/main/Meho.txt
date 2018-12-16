@@ -1,0 +1,10 @@
+package {package};
+
+public class {feature} {
+
+    public final String meho;
+
+    public {feature}(String meho) {
+        this.meho = meho;
+    }
+}
